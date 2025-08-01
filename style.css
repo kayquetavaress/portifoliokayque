@@ -9,17 +9,18 @@ body {
   margin: 0;
 }
 
-
 .background {
+  background-color: #000000; /* fundo preto */
   background-image: url(./img/background.jpeg);
-  background-size: cover;
+  background-size: 80% auto; /* diminui a foto */
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center 25%; /* centralizada e um pouco pra cima */
   width: 100%;
   min-height: 100vh;
   position: relative;
   padding-top: 100px; /* compensa o header fixo */
 }
+
 
 nav {
   position: fixed;
@@ -86,7 +87,7 @@ h1 {
 }
 
 h4 {
-  color: #fcfc;
+  color: rgba(255, 255, 255, 0.8);
   letter-spacing: 2px;
   font-size: 20px;
 }
