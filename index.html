@@ -16,16 +16,22 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer" />
   <title>Portfolio Website</title>
+  <!-- Coloque isso dentro do <head> -->
+<link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css">
+<!-- Biblioteca Unicons Regular (para fi-rr-...) -->
+<link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+
+
 </head>
 <body>
-
   <!-- Cabeçalho / Início -->
   <nav>
     <h2 class="logo">Seja Bem-<span>Vindo</span></h2>
     <ul class="cabeçalho-link">
       <li><a href="#inicio">Início</a></li>
       <li><a href="#sobre">Sobre mim</a></li>
-      <li><a href="#habilidades">Habilidades Profissionais</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#Ferramentas">Ferramentas</a></li>
       <li><a href="#projetos">Meus Projetos</a></li>
       <li><a href="#contato">Contato</a></li>
     </ul>
@@ -105,71 +111,119 @@
     </div>
   </div>
 
-  <!-- Seção Projetos -->
-  <div class="me-contate Container-serviços" id="projetos">
-    <div class="title">
-      <h2>Meus Projetos</h2>
-    </div>
-    <div class="projetos-container">
-      <!-- Projeto 1 -->
-      <div class="projeto-card">
-        <div class="projeto-img">
-          <!-- imagem se tiver -->
-        </div>
-        <div class="projeto-card-content">
-          <h3>Projeto FortLev</h3>
+
+ <!-- Seção Ferramentas -->
+<div class="Container-serviços" id="Ferramentas">
+  <div class="title">
+    <h2>Ferramentas</h2>
+  </div>
+
+    <div class="Caixa">
+      <!-- Card 1 -->
+      <div class="Card">
+        <i class="fi fi-brands-github"></i>
+        <h5>Git e GitHub</h5>
+        <div class="Paragrafo-button">
           <p>
-            Projeto desenvolvido com foco em apresentar melhorias sustentáveis para a empresa FortLev. A proposta abordou estratégias
-            para reduzir o impacto ambiental nas operações, incentivando práticas mais conscientes e alinhadas.
+            Familiaridade com a plataforma GitHub, incluindo versionamento de código, criação e gerenciamento de repositórios, colaboração em projetos e controle de alterações.
           </p>
         </div>
       </div>
-      <!-- Projeto 2 -->
-      <div class="projeto-card">
-        <div class="projeto-img"></div>
-        <div class="projeto-card-content">
-          <h3>Projeto CasasBahia</h3>
+      <!-- Card 2 -->
+      <div class="Card">
+        <i class="fi fi-brands-mysql"></i>
+        <h5>MYSQL</h5>
+        <div class="Paragrafo-button">
           <p>
-           Um mini sistema em JavaScript, HTML e CSS, desenvolvido para imprimir etiquetas de forma prática. O sistema solicita ao usuário as informações que serão adicionadas e a quantidade de etiquetas desejada.
+            Conhecimento em MySQL, com experiência em criação e execução de consultas, manipulação de dados, estruturação de tabelas e análise de informações em bancos de dados relacionais.
           </p>
         </div>
       </div>
-      <!-- Projeto 3 -->
-      <div class="projeto-card">
-        <div class="projeto-img"></div>
-        <div class="projeto-card-content">
-          <h3>Réplica do Spotify</h3>
+      <!-- Card 3 -->
+      <div class="Card">
+        <i class="fi fi-rr-chart-histogram"></i>
+        <h5>Power BI</h5>
+        <div class="Paragrafo-button">
           <p>
-            Réplica visual feita com HTML e CSS, com layout responsivo, menus laterais e player fixo. Treina estruturação e estilização de interfaces.
-          </p>
-        </div>
-      </div>
-      <!-- Projeto 4 -->
-      <div class="projeto-card">
-        <div class="projeto-img"></div>
-        <div class="projeto-card-content">
-          <h3>Caixa Eletrônico em C</h3>
-          <p>
-            Projeto de caixa eletrônico em linguagem C, simulando operações de saque, depósito e consulta de saldo.
+           Conhecimentos básicos em Power BI, com noções de criação de dashboards, conexão com fontes de dados (como Excel) e visualização de informações de forma gráfica e interativa.
           </p>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Rodapé / Contato -->
-  <footer id="contato">
-    <div class="title">
-      <h2>Meus Contatos</h2>
+  <!-- Seção Projetos -->
+<div class="me-contate Container-serviços" id="projetos">
+  <div class="title">
+    <h2>Meus Projetos</h2>
+  </div>
+  <div class="cards-container">
+    <!-- Projeto 1 -->
+    <div class="card" style="background-image: url('img/fortlev.png.jpeg');">
+      <div class="overlay">
+        <h3>Projeto FortLev</h3>
+        <p>
+          Projeto com foco em apresentar melhorias sustentáveis para a empresa FortLev. Estratégias para reduzir o impacto ambiental nas operações.
+        </p>
+      </div>
     </div>
-    <p>Fique à vontade para entrar em contato pelas redes sociais — será um prazer atendê-lo!</p>
-    <div class="Redes-sociais">
-      <a href="https://github.com/kayquetavaress"><i class="fab fa-github"></i></a>
-      <a href="https://www.instagram.com/kayquetavaress/"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/kayque-gomes-14945b210/"><i class="fab fa-linkedin"></i></a>
+    <!-- Projeto 2 -->
+    <div class="card" style="background-image: url('img/casasbahia.png.jpeg');">
+      <div class="overlay">
+        <h3>Projeto CasasBahia</h3>
+        <p>
+          Mini sistema em JS, HTML e CSS para imprimir etiquetas de forma prática, com entrada de dados e quantidade desejada.
+        </p>
+      </div>
     </div>
-    <p class="end">Copyright © 2025 Kayque Tavares</p>
-  </footer>
+    <!-- Projeto 3 -->
+    <div class="card" style="background-image: url('img/spotify.png.jpeg');">
+      <div class="overlay">
+        <h3>Réplica do Spotify</h3>
+        <p>
+          Interface do Spotify com HTML e CSS. Layout responsivo com menus e player fixo. Treinamento em estrutura e estilização.
+        </p>
+      </div>
+    </div>
+    <!-- Projeto 4 -->
+    <div class="card" style="background-image: url('img/caixa.png.jpeg');">
+      <div class="overlay">
+        <h3>Caixa Eletrônico em C</h3>
+        <p>
+          Simulador em C com operações de saque, depósito e saldo. Ideal para praticar lógica de programação e estruturas condicionais.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Contato -->
+<section class="contato" id="contato">
+  <div class="contato-container">
+    <div class="contato-info">
+      <h2 class="contato-titulo">Meus Contatos</h2>
+      <p class="contato-texto">Será um prazer atendê-lo(a)</p>
+      <div class="contato-email">
+        <i class="fas fa-envelope"></i>
+        <span>kaka8150@hotmail.com</span>
+      </div>
+    </div>
+    <div class="contato-botoes">
+      <a href="https://wa.me/qr/PBV2Z3ELRQV5E1" target="_blank" class="btn-contato"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="https://github.com/kayquetavaress" target="_blank" class="btn-contato"><i class="fi fi-brands-github"></i> GitHub</a>
+      <a href="https://www.instagram.com/kayquetavaress/" target="_blank" class="btn-contato"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="https://www.linkedin.com/in/kayque-tavares/" target="_blank" class="btn-contato"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<!-- Rodapé com redes sociais e direitos autorais -->
+<footer class="footer-final">
+
+    <p class="end">Copyright © 2025 Kayque Tavares — Todos os direitos reservados.</p>
+  </div>
+</footer>
+
 
 </body>
 </html>
