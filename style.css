@@ -14,16 +14,20 @@ body {
 }
 
 .background {
-  background-color: #000000; /* fundo preto */
+  background-color: #000000;
   background-image: url(./img/background.jpeg);
-  background-size: 80% auto; /* diminui a foto */
+  background-size: contain; /* mostra a imagem inteira */
   background-repeat: no-repeat;
-  background-position: center 25%; /* centralizada e um pouco pra cima */
+  background-position: center top;
   width: 100%;
   min-height: 100vh;
   position: relative;
-  padding-top: 100px; /* compensa o header fixo */
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
+
 
 
 nav {
@@ -556,4 +560,6 @@ footer p {
   font-size: 14px;
   color: #aaa;
 }
+
+
 
